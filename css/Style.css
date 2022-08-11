@@ -5,7 +5,15 @@
 html, body{
     margin: 0%;
     box-sizing: border-box;
+	
     
+}
+body{
+	background-image: url(../assets/wooden.jpg);
+	
+	background-size:cover;
+	filter:5px;
+	
 }
 
 :root{
@@ -47,8 +55,8 @@ ul{
 }
 
 h1{
-    font-family: var(--Lexend);
-    font-size: 2.5rem;
+   
+    font-size: 2.7rem;
 }
 
 h2{
@@ -80,8 +88,9 @@ span{
 }
 
 p{
-    font-family: var(--Lexend);
-    color: var(--text-light);
+    
+    font-family: system-ui;
+    color: black;	
 }
 
 /* ------x------- Global Classes -------x-------*/
@@ -95,6 +104,16 @@ p{
 
 /* --------------- Blog Carousel ------------ */
 
+
+.heading_post{
+
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+
 main .blog{
     /* background: url('../assets/ab_bk.jpg'); */
     background-repeat: no-repeat;
@@ -105,10 +124,19 @@ main .blog{
     background-size: 100%;
 }
 
+.blog{
+	margin-top:100px;
+	margin-bottom:100px;
+	border-top:2px dotted black;
+	border-bottom:2px dotted black;
+	font-size:1.2ren;
+	
+	font-weight: 1000;
+
+}
 main .blog .blog-post{
     padding-top: 6rem;
 }
-
 main .blog-post .blog-content{
     display: flex;
     flex-direction: column;
@@ -122,11 +150,15 @@ main .blog-content .blog-title{
     padding: 2rem 0;
 	background-color:rgb(255, 255, 255,0.);
 	
+	
+}
+.blog-title h3{
+	font-weight: 700;
 }
 
 main .blog-content .btn-blog{
     padding: .7rem 2rem;
-    background: var(--sky);
+    background-color:white;
     margin: .5rem;
 }
 
@@ -248,18 +280,62 @@ section .container .owl-nav{
 
 
 .thought{
+
 	
 
-	height:1000px;
-	width:100%;
 	overflow:hidden;
 	
 	transition: 0.4s;
 	
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin:20px;
 }
 .thought img{
-		height: inherit;
+		
 		width:inherit;
+		overflow:hidden;
+		transition: 0.7s;
+		opacity:1;
+		height: 80vh;
+		border-radius:20%;
+		
+			
+		
+		
+		
+}
+.thought_img{
+	border-radius:20%;
+	width:100%;
+	height: 100%;
+	border:2px solid black;
+	overflow-y: hidden;
+	overflow: hidden;
+	
+	
+	
+	
+	
+	
+}
+.thought img:hover{
+	transform:scale(1.2);
+	
 
 }
+.text{
+	text-align: center;
+	margin-right: 50px;
+}
 
+
+.down{
+	position:absolute;
+	bottom:10000px;	
+	
+}
+.social .black{
+	border:2px solid black;
+}
