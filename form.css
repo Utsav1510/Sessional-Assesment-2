@@ -1,8 +1,10 @@
 .myForm {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 1rem;
-    width:60%;
-    padding: 1em;
+    width:80%;
+    border-radius:10%;
+    padding: 50px;
+    margin-bottom:200px;
     border: 2px dashed black;
     
 
@@ -44,7 +46,7 @@
     border: 1px solid black;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 0.8em;
-    width:190px;
+    width:250px;
     padding: 0.3em;
     }
     input .myForm textarea {
@@ -105,6 +107,13 @@ input{
 
 .myForm textarea{
     border:1px solid black;
-    color:rgb(93, 89, 89);
+    color:black;
     width:100%;
+}
+.form_head{
+	display:block;
+	width:100%;
+	text-align: center;
+	margin-bottom:50px;
+
 }
