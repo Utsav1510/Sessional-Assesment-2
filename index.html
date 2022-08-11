@@ -10,9 +10,9 @@
   	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	  <link rel="stylesheet" href="form.css">
+	  <link rel="stylesheet" href="practice_form/form.css">
 	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
-	  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	  <link rel="icon" type="image/x-icon" href="./assets/pngwing.com.png">
 		 <!-- Font Awesome Icons -->
 		 <link rel="stylesheet" href="./css/all.css">
 		 <link rel="stylesheet" href="./css/style1.css">
@@ -32,17 +32,25 @@
 <body>
 	<!----headerfull Section start---->
 
-	<div class="headerfull" id="headerfull" data-aos="fade-down"
-	
-	data-aos-duration="2000">
+	<div class="headerfull" id="headerfull" data-aos="fade-down" data-aos-duration="2000">
+
+		<div class="logocontainer">
+
+			<img src="assets/pngwing.com.png"><span id="logoh1">Blogger's World</span>
+
+
+
+
+		</div>
+
 		<nav> 	
 			
 			<ul>
-				<li><a class="black"  href="#content"  >Home</a></li>
-				<li><a class="black" href="#about">About Me</a></li>
-				<li><a class="black" href="#achievement">achievements</a></li>
-				<li><a class="black" href="#skills">Skills</a></li>
-				<li><a class="black" href="#contact">Contact Me</a></li>
+				<li><a class="black"  href="#home">Home</a></li>
+				<li><a class="black" href="#popular">Popular Posts</a></li>
+				<li><a class="black" href="#form">Post Now!</a></li>
+				<li><a class="black" href="#Contact">Contact</a></li>
+				
 				
 			</ul>
 			<a class="black btn1" href="#" >Sign in </a>
@@ -58,29 +66,26 @@
 	</div>
 
 
-    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
-    <!----------------------------- Main Site Section ------------------------------>
-
-    <main>
+    <main >
 
         <!-- --------------------- Blog Carousel ----------------- -->
 
 
 
-	<div class="thought" >
+	<div class="thought" id="home" >
 		<div class="thought_img" data-aos="zoom-in" data-aos-duration="2000">
 			<img class="st_image" src="./assets/first.jpg">
 
 		</div>
 		
 
-		<div class="text" data-aos="fade-down" data-aos-duration="3000">
+		<div class="text" 	data-aos="zoom-in" data-aos-duration="2000">
 			
-			<h1>Welcome Bloggers!!!!!</h1>
+			<h1  > Welcome Bloggers!!!!!</h1>
 			<br>_______________	<br><br>
-			<h2>
-				Make your content enlighten the world <br>:)
+			<h3>
+				Let your content enlighten the world <br>:)
 		   </h2>
 		</div>
 		
@@ -90,12 +95,19 @@
         <section>
 		
             <div class="blog">
-				<div class="heading_post">
+				<div class="heading_post" id="popular">
 
 
-					<h1>
-			
-			
+					<h1 data-aos="fade-down">
+						<div class="logocontainer two">
+
+							<img src="assets/pngwing.com.png"><span id="logoh1"></span>
+				
+				
+				
+				
+						</div>
+						
 						Popular Posts
 			
 					</h1>
@@ -105,43 +117,59 @@
 			
 			
 				</div>
-                <div class="container">
+                <div class="container"  >
                     <div class="owl-carousel owl-theme blog-post">
-                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+						
+                        <div class="blog-content" data-aos="fade-right"  data-aos-duration="1000"	 	 >
+							<img src="./assets/Blog-post/post-1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3 class="userId"></h2>
+								<h3 class="id">Hello</h2>
+								<h5 class="title" ></h3 >
+								<h5 class="body"></h4>
+                                
+                            </div>
+                        </div>
+						<div class="blog-content" data-aos="fade-right" data-aos-duration="1000"	 	>
                             <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
                             <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
+                            
+                                <h3 class="userId"></h2>
+								<h3 class="id"></h2>
+								<h3 class="title" ></h3 >
+								<h5 class="body"></h4>
                             </div>
                         </div>
-                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                        <div class="blog-content" data-aos="fade-in" data-aos-duration="1000"	 	>
                             <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
                             <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
+                                <h3 class="userId"></h2>
+								<h3 class="id"></h2>
+								<h3 class="title" ></h3 >
+								<h5 class="body"></h4>
                             </div>
                         </div>
-                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                        <div class="blog-content" data-aos="fade-left" data-aos-duration="1000"	 	>
                             <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
                             <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
+                                <h3 class="userId"></h2>
+								<h3 class="id"></h2>
+								<h3 class="title" ></h3 >
+								<h5 class="body"></h4>
                             </div>
                         </div>
-                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                        <div class="blog-content" data-aos="fade-right" data-aos-duration="1000"	 >
                             <img src="./assets/Blog-post/post-5.png" alt="post-1">
                             <div class="blog-title">
-                                <h3>London Fashion week's continued the evolution</h3>
-                                <button class="btn btn-blog">Fashion</button>
-                                <span>2 minutes</span>
+                                <h3 class="userId"></h2>
+								<h3 class="id"></h2>
+								<h3 class="title" ></h3 >
+								<h5 class="body"></h4>	
                             </div>
                         </div>
                     </div>
-                    <div class="owl-navigation down">
-                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                    <div  class="owl-navigation down" >
+                        <span  class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
                         <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
                     </div>
                 </div>
@@ -154,23 +182,30 @@
 
         
 
-    </main>
-	<div class="form_head">
+    </main >
+	<div  id="form">
+		
+		<div class="logocontainer three" data-aos="fade-down">
+
+			<img src="assets/pngwing.com.png"><span id="logoh1"></span>
+
+
+
+
+		</div>
+	<div 	class="form_head" id="formhead" data-aos="flip-up" data-aos-duration="1000">
 		<u><h1>Want to Post Something?? Here you go-></h1></u>
 		
 	</div>
-	<div class="form_final">
+	<div class="form_final" class="form_head" data-aos="flip-up" data-aos-duration="2000">
 		
 		
 		<form  class="myForm" method="get"  >
 				
 
 			<fieldset>
-			<legend align="center">BLOG</legend>
-			<br>
-			<br>
-			<br>
-			<br>
+			<legend align="center" style="font-size: 2rem;">BLOG</legend>
+			
 
 			<p>
 			<label>Name
@@ -206,103 +241,44 @@
 					
 				
 				
-				<textarea name="blog" maxlength="1000"> Write down your thoughts here......</textarea>
+				<textarea name="blog" maxlength="1000"> Write down your thoughts here....</textarea>
 				
 				</p>
 				
 				
 			</fieldset>
 
-			<p><button>Post</button></p>
+			
 			</fieldset>
+			<p id="button_container"><button id="formbutton">Post</button></p>
 			</form>
 
-
+			<script src="./js/ajax.js"></script>
 
 	</div>
 
 	
 	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-	
-	
-
-	
 
 	<!------footer start--------->
-	<footer id="contact">
-		<p>Personal Info And Contact</p>
-		<p>Utsav Punia<br>
-		
-			Father’s Name: Er Deepak Punia <br>
-			Profession: Engineer, Working as A lecturer in Govt Polytechnic.<br>
-			Mother’s Name: Mrs Tanu Punia<br>
-			Profession: Principal<br>
-			D.O.B: 15 October, 2001<br>
-			Gender: Male<br>
-			Address: Flat no 253, first floor, Suncity, Sector-33, Dhandh Road, Kaithal Haryana<br>
+	<footer  data-aos="fade-right"
+	data-aos-duration="1000">
+	<h1>Contact Us</h1>
+	<p id="contactfo">
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 		</p>
 
 		
-		<div class="social">
+		<div class="social" >
 			<a class="black" href="#"><i class="fab fa-facebook-f"></i></a>
 			<a class="black" href="#"><i class="fab fa-instagram"></i></a>
 			<a class="black" href="#"><i class="fab fa-dribbble"></i></a>
 		</div>
 		
 	</footer>
-	
+	<div id="Contact">
+		
+	</div>
 
 
 

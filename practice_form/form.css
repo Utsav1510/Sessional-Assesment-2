@@ -1,11 +1,13 @@
 .myForm {
+    transform: scale(0.8 );
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width:80%;
     border-radius:10%;
     padding: 50px;
-    margin-bottom:200px;
-    border: 2px dashed black;
+   
+   
+    border: 4px dashed black;
     
 
     }
@@ -61,23 +63,32 @@
     }
     
     .myForm button {
-    padding: 1em;
+  
     border-radius: 0.5em;
     background: #eee;
     border: none;
     font-weight: bold;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 1.8em;
     }
     
-    .myForm button:hover {
-    background: #ccc;
-    cursor: pointer;
-    }
+   
 
+#button_container{
+    height: 100px;
+}
+
+#formbutton:hover{
+    border:2px solid black;     
+    background: rgb(228, 186, 130);
+    color:black !important;
+    
+    cursor: pointer;
+
+}
 
 .form_final {
-    height:100%;
+   
     padding: 0;
     margin: 0;
     display: flex;
@@ -114,6 +125,10 @@ input{
 	display:block;
 	width:100%;
 	text-align: center;
-	margin-bottom:50px;
+    
+    
 
+}
+#formhead h1{
+    font-size: 3rem;
 }
