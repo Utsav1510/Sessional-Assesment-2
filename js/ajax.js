@@ -17,7 +17,7 @@ fetch('https://jsonplaceholder.typicode.com/posts?utm_source=Mailerlite&utm_medi
                     //     // document.getElementsByClassName("title")[i].innerHTML=x[i].title;
                     //     // document.getElementsByClassName("body")[i].innerHTML=x[i].body;
                     // }
-//                     document.getElementsByClassName("userId")[i].innerHTML="Userid ="+x[i].userId;
+                    document.getElementsByClassName("userId")[i].innerHTML="Userid ="+x[i].userId;
                     document.getElementsByClassName("id")[i].innerHTML="ID =" + (x[i].id-3);
                     document.getElementsByClassName("title")[i].innerHTML="<b>Title</b> :" +x[i].title;
                     document.getElementsByClassName("body")[i].innerHTML="<b>Post</b> :" +x[i].body;
@@ -30,6 +30,5 @@ fetch('https://jsonplaceholder.typicode.com/posts?utm_source=Mailerlite&utm_medi
 
 
 })
-
 
 
